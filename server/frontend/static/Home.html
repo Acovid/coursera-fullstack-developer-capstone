@@ -19,14 +19,14 @@ let checkSession = ()=>{
     '<a class="homepage_links" onclick="logout()" href="/">Logout</a>'
   } else {
     document.getElementById("loginlogout").innerHTML = 
-    '<a class="homepage_links" style="color: white;" href="/login">Login</a>'+
-    '<a class="homepage_links" style="color: white;" href="/register">Register</a>'
+    '<a class="homepage_links" href="/login">Login</a>'+
+    '<a class="homepage_links" href="/register">Register</a>'
   }
  }
 </script>
 </head>
 <body onload="checkSession()">
-<nav class="navbar navbar-expand-lg navbar-light" style="color: white; background-color: rgb(64, 130, 244); height: 1in; font-size: 20px"">
+<nav class="navbar navbar-expand-lg navbar-light" style=" background-color: #00CED1; height: 1in; font-size: 20px"">
   <div class="container-fluid">
     <h2 style="padding-right: 5%; padding-left: 5%;">Dealerships</h2>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,13 +35,13 @@ let checkSession = ()=>{
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" style="margin-left: 1rem; margin-right: 1rem; font-size: larger; color: white" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" style="margin-left: 1rem; margin-right: 1rem; font-size: larger;" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="margin-left: 1rem; margin-right: 1rem; font-size: larger; color: white" href="/about">About Us</a>
+          <a class="nav-link" style="margin-left: 1rem; margin-right: 1rem; font-size: larger;" href="/about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" style="margin-left: 1rem; margin-right: 1rem; font-size: larger; color: white" href="/contact">Contact Us</a>
+          <a class="nav-link" style="margin-left: 1rem; margin-right: 1rem; font-size: larger;" href="/contact">Contact Us</a>
         </li>
       </ul>
       <span class="navbar-text">
@@ -56,7 +56,7 @@ let checkSession = ()=>{
   <img src="static/car_dealership.jpg" class="card-img-top" alt="...">
   <div class="banner" style="margin: 1rem; padding-bottom: 2%; font-size: 20px">
     <h5>Welcome to our Dealerships!</h5>
-    <a href="/dealers" class="btn" style="background-color: rgb(64, 130, 244); color: white; margin:10px; font-size: 20px;">View Dealerships</a>
+    <a href="/dealers" class="btn" style="background-color: #00CED1;  margin:10px; font-size: 20px;">View Dealerships</a>
   </div>
 </div>
 </div>

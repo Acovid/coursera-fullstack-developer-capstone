@@ -1,7 +1,6 @@
 .navcontainer{
   display: flex;
   flex: 1;
-
   flex-direction: row;
   margin: auto;
   margin-top: 2%;
